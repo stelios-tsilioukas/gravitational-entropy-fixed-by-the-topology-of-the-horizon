@@ -1,0 +1,9 @@
+k=+1: sqrt(g)GB = -d/dr[4f'(k-f)]  OK;  sqrt(h)Q2 = 4f'(k-f)  OK;  R^xy_xy=(k-f)/r^2  OK
+k=+0: sqrt(g)GB = -d/dr[4f'(k-f)]  OK;  sqrt(h)Q2 = 4f'(k-f)  OK;  R^xy_xy=(k-f)/r^2  OK
+k=-1: sqrt(g)GB = -d/dr[4f'(k-f)]  OK;  sqrt(h)Q2 = 4f'(k-f)  OK;  R^xy_xy=(k-f)/r^2  OK
+Noether: Q_E(r0)=8c*(f'/2)*(k-f)Vol_k ; iota_xi l_E (inward normal) = -c*sqrt(h)Q2*Vol_k = -4c f'(k-f) Vol_k  => H_E = 0
+Schwarzschild: bulk(rh..r0)+Myers(r0) = 64*pi**2 = 32 pi^2 chi for all r0;  Myers(r0->rh) = 64*pi**2
+Reissner-Nordstrom: bulk(rh..r0)+Myers(r0) = 64*pi**2 = 32 pi^2 chi for all r0;  Myers(r0->rh) = 64*pi**2
+hyperbolic AdS genus g: bulk(rh..r0)+Myers(r0) = 64*pi**2*(1 - g) = 32 pi^2 chi for all r0;  Myers(r0->rh) = 64*pi**2*(1 - g)
+massless hyperbolic (CHM): bulk(rh..r0)+Myers(r0) = 64*pi**2*(1 - g) = 32 pi^2 chi for all r0;  Myers(r0->rh) = 64*pi**2*(1 - g)
+All S1 checks passed.

@@ -1,0 +1,44 @@
+(1) Two-dimensional Gauss-Bonnet:  int sqrt(g) R d^2x = 4 pi chi
+
+   round S^2 of radius a        R = 2/a**2,  int R sqrt(g) = 8*pi,  4 pi chi = 8*pi
+   flat torus                   R = 0,  int R sqrt(g) = 0,  4 pi chi = 0
+   hyperbolic genus-2:          R = -2,  area = 4 pi (g-1) = 4 pi,  int R sqrt(g) = -8 pi,  4 pi chi = -8 pi  (chi = 2-2g = -2)
+
+(2) Matter renormalises the coefficient of chi (conformal anomaly)
+
+   d(log Z)/d(omega) = (c/24 pi) * int sqrt(g) R = c*chi/6
+   so  S_0^eff(mu) = S_0 + (c/6) log(mu_*/mu),  i.e. dS_top/dlog mu = c/6
+   cross-check on the sphere (chi=2):  log Z_(S^2) contains c/3 log r  ->  Z ~ r^(c/3)   [known result]
+
+   Unified: <T^mu_mu> = A_D * Ehat_D  with  int sqrt(g) Ehat_D = chi;  dS_top/dlog mu = A_D
+     D = 2:  Ehat_2 = R/(4 pi),          A_2 = c/6
+     D = 4:  Ehat_4 = E_4/(32 pi^2),     A_4 = 2a
+     2D rate for c =  1:  c/6 = 0.1667
+     2D rate for c =  2:  c/6 = 0.3333
+     2D rate for c = 24:  c/6 = 4.0000
+     2D rate for c = 26:  c/6 = 4.3333
+     4D rate, photon only       : a = 0.1722,  dS_top/dlog mu = 2a = 0.3444,  d(64 pi^2 lambda)/dlog mu = 4a = 0.6889
+     4D rate, photon + neutrino : a = 0.2028,  dS_top/dlog mu = 2a = 0.4056,  d(64 pi^2 lambda)/dlog mu = 4a = 0.8111
+     4D rate, SM below 1 GeV    : a = 0.2639,  dS_top/dlog mu = 2a = 0.5278,  d(64 pi^2 lambda)/dlog mu = 4a = 1.0556
+     (the paper's infrared figure is 0.7)
+
+   The same coefficient appears twice: the matter entanglement entropy across a
+   JT horizon is (c/6) log(.../epsilon) -- one endpoint, hence c/6, not c/3 -- so the
+   logarithm that renormalises S_0 IS the matter entropy. This is Eq. (Stop-run) in 2D.
+
+(3) Entropy and modular flow with matter, for gravity-matter correlated states
+
+   how strongly the matter state depends on the energy (0 = uncorrelated): 1.25
+
+ state     S_0    S(lam)-S(1)        err  sigma_t: topological  sigma_t: energy-dep
+     0    0.50    0.500000000    2.2e-16              2.21e-12                0.580
+     0    2.00    2.000000000    1.1e-15              2.53e-12                0.580
+     1    0.50    0.500000000    6.7e-16              4.47e-13                0.685
+     2    0.50    0.500000000    2.2e-16              1.29e-13                0.617
+     3    0.50    0.500000000    0.0e+00              1.50e-14                0.657
+
+   A uniform (topological) reweighting leaves the modular flow pointwise
+   invariant even on energy-mixing operators: the phase lambda^{-it} cancels in
+   the conjugation. An energy-dependent reweighting of the same overall size does
+   not. With matter the algebra contains such operators, so this is a real test;
+   without matter the algebra is commutative and there is nothing to distinguish.

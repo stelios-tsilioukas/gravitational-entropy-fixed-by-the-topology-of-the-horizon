@@ -1,0 +1,37 @@
+Topological black holes, general k:
+   2GM = k*r_h + r_h**3/L**2       T = k/(4*pi*r_h) + 3*r_h/(4*pi*L**2)
+
+==========================================================================
+Hyperbolic family, k = -1: Sigma_g compact, unit curvature, area 4 pi (g-1)
+
+   A            = 4*pi*r_h**2*(g - 1)      chi = 2 - 2*g
+   S = A/4G + 2 pi alpha chi/G = -pi*(4*alpha - r_h**2)*(g - 1)/G
+
+   The genus factors out completely and the coupling enters as a shift of
+   the horizon radius squared:  r_h^2 -> r_h^2 - 4 alpha.
+
+   First law check within a sector:
+      dE/dr_h / (T dS/dr_h) = 1
+      d(alpha-part of S)/dr_h = 0    -> the topological charge has no conjugate variation
+
+   Entropy positivity (alpha > 0) requires r_h^2 >= 4 alpha, i.e.
+      r_h >= 2 sqrt(alpha) = l_P sqrt(log|Gamma|/pi)   [using alpha = l_P^2 log|Gamma|/4pi]
+      |Gamma| = 2:  r_h,min/l_P = 0.4697
+      |Gamma| = 3:  r_h,min/l_P = 0.5914
+      |Gamma| = 4:  r_h,min/l_P = 0.6643
+
+==========================================================================
+The topological weight distinguishes bulk fillings of the same boundary
+
+   boundary S^1 x Sigma_g;   black-hole filling D^2 x Sigma_g has chi = 2-2g,
+   a thermal-AdS-type filling S^1 x M_3 has chi(S^1 x M_3) = 0.
+   The Gauss-Bonnet term weights them by e^{2 pi alpha chi/G}: the four-
+   dimensional analogue of e^{S_0 chi} in JT.
+
+   Spherical case k=+1 (chi = 2), where the transition is standard:
+      F_0(r_h) = r_h*(L - r_h)*(L + r_h)/(4*G*L**2)    (zero at r_h = L: standard)
+      transition condition (times 4G/L): -(12*a*x + 4*a + x**2 - x)/sqrt(x)
+      as a polynomial in x: -(12*a*x + 4*a + x**2 - x)/sqrt(x)
+      exact roots: [-6*a - sqrt((4*a - 1)*(36*a - 1))/2 + 1/2, -6*a + sqrt((4*a - 1)*(36*a - 1))/2 + 1/2]
+      small-alpha: [4*a, 1 - 16*a]
+      T_HP = (L**2 - 4*alpha)/(pi*L**3)   -> fractional shift -4 alpha/L^2

@@ -1,0 +1,13 @@
+Riemann symmetry checks (both should be 0): 0 0
+Ricci, R for Schwarzschild: Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]) 0
+eps_ab eps^ab = -2
+GB scalar = 48*M**2/r**6    Euler-theorem residual R_abcd P^abcd - 2GB = 0
+
+P_EH.eps.eps = -2   -> s_EH = -2pi*(1/16piG)*that = 1/(4*G)
+P_GB.eps.eps = -16*M/r**3    -4*^{(2)}R = -8/r**2    difference: 8*(-2*M + r)/r**3
+at the horizon r=2M: -2/M**2
+S_GB = 4*pi*alpha/G    expected 2 pi alpha chi/G = 4*pi*alpha/G
+
+--- the GB charge drops out of the first law ---
+S_W(M) = 4*pi*M**2/G + 4*pi*alpha/G    T dS_W/dM = 1/G   (= dM/G, alpha-free)
+d(S_top)/dM = 0   -> the topological charge has no conjugate variation

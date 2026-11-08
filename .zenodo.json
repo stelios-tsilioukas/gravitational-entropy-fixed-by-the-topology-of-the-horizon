@@ -1,0 +1,13 @@
+{
+  "title": "Verification code for: The additive ambiguity of gravitational entropy fixed by the topology of the horizon",
+  "upload_type": "software",
+  "description": "Symbolic and numerical checks (Python/SymPy) accompanying the paper by S. A. Tsilioukas on the Gauss-Bonnet contribution to the Wald entropy as the trace normalization of the type II algebra of a horizon.",
+  "creators": [
+    {
+      "name": "Tsilioukas, Stylianos A.",
+      "affiliation": "National Observatory of Athens; University of Thessaly"
+    }
+  ],
+  "license": "MIT",
+  "keywords": ["gravitational entropy", "Gauss-Bonnet", "von Neumann algebras", "crossed product", "topology change"]
+}

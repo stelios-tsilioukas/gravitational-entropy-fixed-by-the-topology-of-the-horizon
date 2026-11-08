@@ -1,0 +1,15 @@
+M= 1 a= 0.5
+  theta=0.30  l_theta=0.0e+00 l_phi=-1.1e-20  omega_theta=-1.90e-02  omega_phi=-0.032283
+  theta=0.90  l_theta=0.0e+00 l_phi=-1.6e-19  omega_theta=-3.40e-02  omega_phi=-0.241078
+  theta=1.40  l_theta=0.0e+00 l_phi=-7.8e-19  omega_theta=-1.20e-02  omega_phi=-0.398250
+  theta=2.20  l_theta=0.0e+00 l_phi=5.1e-19  omega_theta=3.33e-02  omega_phi=-0.258041
+M= 1 a= 0.9
+  theta=0.30  l_theta=0.0e+00 l_phi=-8.7e-18  omega_theta=-8.16e-02  omega_phi=-0.053541
+  theta=0.90  l_theta=0.0e+00 l_phi=3.9e-18  omega_theta=-1.66e-01  omega_phi=-0.505159
+  theta=1.40  l_theta=0.0e+00 l_phi=-1.8e-17  omega_theta=-6.51e-02  omega_phi=-1.011592
+  theta=2.20  l_theta=0.0e+00 l_phi=-1.9e-17  omega_theta=1.65e-01  omega_phi=-0.551642
+M= 1 a= 0.0
+  theta=0.30  l_theta=0.0e+00 l_phi=0.0e+00  omega_theta=0.00e+00  omega_phi=0.000000
+  theta=0.90  l_theta=0.0e+00 l_phi=0.0e+00  omega_theta=0.00e+00  omega_phi=0.000000
+  theta=1.40  l_theta=0.0e+00 l_phi=0.0e+00  omega_theta=0.00e+00  omega_phi=0.000000
+  theta=2.20  l_theta=0.0e+00 l_phi=0.0e+00  omega_theta=0.00e+00  omega_phi=0.000000

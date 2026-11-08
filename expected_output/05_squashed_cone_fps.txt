@@ -1,0 +1,4 @@
+1. GB defect = 8 pi (1-n) [R - 2R_aa + R_abab + k_a k_a - Tr K K] : True
+2. R - 2R_aa + R_abab + k_a k_a - Tr K K - R_Sigma = 0   (generic A, B, C)
+   k_a k_a - Tr K K = (A(x0, x1)*Derivative(C(x0, x1), x1)**2 + B(x0, x1)*Derivative(C(x0, x1), x0)**2)/(2*A(x0, x1)*B(x0, x1)*C(x0, x1)**2)  (extrinsic part, nonzero in general)
+   => GB defect = 8 pi (1-n) oint R_Sigma dA = 32 pi^2 (1-n) chi(Sigma) on every smooth cut

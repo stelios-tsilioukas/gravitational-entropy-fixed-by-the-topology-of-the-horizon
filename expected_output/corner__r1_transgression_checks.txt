@@ -1,0 +1,14 @@
+PASS Chern-Weil transgression: fixed generic reference
+PASS delta T = theta - theta_bar - d C for both independent variations
+PASS negative control: omitting d C leaves nonzero residual
+PASS completed Euler corner form cancels; product-reference Euler pairings vanish
+Does not test: moving boundary frames, large gauge quotient, gluing or a null limit.
+PASS Chern-Weil transgression: varying product reference
+PASS delta T = theta - theta_bar - d C for both independent variations
+PASS negative control: omitting d C leaves nonzero residual
+PASS completed Euler corner form cancels; product-reference Euler pairings vanish
+Does not test: moving boundary frames, large gauge quotient, gluing or a null limit.
+PASS flat B4: Myers Q2=16/r^3, integral=32*pi^2, radius derivative=0
+PASS rectangle x S2: four angle joints total64*pi^2; S2 area remains variable
+Does not test: generic nonproduct joints; their extrinsic endpoint terms are required.
+All transgression and geometric completion checks passed.

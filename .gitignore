@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Editors and OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# LaTeX build files (in case the manuscript is placed here)
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.blg
+*.fdb_latexmk
+*.fls

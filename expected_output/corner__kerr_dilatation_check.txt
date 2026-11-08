@@ -1,0 +1,3 @@
+a/M= 0.3  Omega_E(delta_a,delta_M)/(8c) on v=const cut = 3.590756195e-15
+a/M= 0.6  Omega_E(delta_a,delta_M)/(8c) on v=const cut = 3.819414031e-14
+a/M= 0.9  Omega_E(delta_a,delta_M)/(8c) on v=const cut = -1.143541483e-12

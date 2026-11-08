@@ -1,0 +1,45 @@
+R      = -2*Derivative(h(rho), (rho, 2))/h(rho) + 2/b**2
+GB     = -8*Derivative(h(rho), (rho, 2))/(b**2*h(rho))
+GB - 8*K1*K2 = 0    <-- must be 0
+sqrt(g) = b**2*sqrt(h(rho)**2)*Abs(sin(theta_1))
+GB*sqrt(g) = -8*sqrt(h(rho)**2)*Abs(sin(theta_1))*Derivative(h(rho), (rho, 2))/h(rho)
+
+ int dr [GB sqrt(g)/sin(theta_1)] = -8*Abs(sin(theta_1))*Integral(sqrt(h(rho)**2)*Derivative(h(rho), (rho, 2))/h(rho), (rho, 0, oo))/sin(theta_1)
+
+=== numerical check:  int GB sqrt(g) d^4x  vs  64 pi^2 (1-n) ===
+  n=0.50 a= 0.1 [tanh  ]  integral=    315.8273   64pi^2(1-n)=    315.8273   diff=5.68e-14
+  n=0.50 a= 0.1 [arctan]  integral=    315.8273   64pi^2(1-n)=    315.8273   diff=1.14e-13
+  n=0.50 a= 1.0 [tanh  ]  integral=    315.8273   64pi^2(1-n)=    315.8273   diff=1.14e-13
+  n=0.50 a= 1.0 [arctan]  integral=    315.8273   64pi^2(1-n)=    315.8273   diff=5.68e-14
+  n=0.50 a= 5.0 [tanh  ]  integral=    315.8273   64pi^2(1-n)=    315.8273   diff=1.14e-13
+  n=0.50 a= 5.0 [arctan]  integral=    315.8273   64pi^2(1-n)=    315.8273   diff=0.00e+00
+
+  n=0.80 a= 0.1 [tanh  ]  integral=    126.3309   64pi^2(1-n)=    126.3309   diff=2.84e-14
+  n=0.80 a= 0.1 [arctan]  integral=    126.3309   64pi^2(1-n)=    126.3309   diff=1.42e-14
+  n=0.80 a= 1.0 [tanh  ]  integral=    126.3309   64pi^2(1-n)=    126.3309   diff=5.68e-14
+  n=0.80 a= 1.0 [arctan]  integral=    126.3309   64pi^2(1-n)=    126.3309   diff=0.00e+00
+  n=0.80 a= 5.0 [tanh  ]  integral=    126.3309   64pi^2(1-n)=    126.3309   diff=7.11e-14
+  n=0.80 a= 5.0 [arctan]  integral=    126.3309   64pi^2(1-n)=    126.3309   diff=0.00e+00
+
+  n=1.00 a= 0.1 [tanh  ]  integral=      0.0000   64pi^2(1-n)=      0.0000   diff=0.00e+00
+  n=1.00 a= 0.1 [arctan]  integral=      0.0000   64pi^2(1-n)=      0.0000   diff=0.00e+00
+  n=1.00 a= 1.0 [tanh  ]  integral=      0.0000   64pi^2(1-n)=      0.0000   diff=0.00e+00
+  n=1.00 a= 1.0 [arctan]  integral=      0.0000   64pi^2(1-n)=      0.0000   diff=0.00e+00
+  n=1.00 a= 5.0 [tanh  ]  integral=      0.0000   64pi^2(1-n)=      0.0000   diff=0.00e+00
+  n=1.00 a= 5.0 [arctan]  integral=      0.0000   64pi^2(1-n)=      0.0000   diff=0.00e+00
+
+  n=1.30 a= 0.1 [tanh  ]  integral=   -189.4964   64pi^2(1-n)=   -189.4964   diff=2.84e-14
+  n=1.30 a= 0.1 [arctan]  integral=   -189.4964   64pi^2(1-n)=   -189.4964   diff=2.84e-14
+  n=1.30 a= 1.0 [tanh  ]  integral=   -189.4964   64pi^2(1-n)=   -189.4964   diff=8.53e-14
+  n=1.30 a= 1.0 [arctan]  integral=   -189.4964   64pi^2(1-n)=   -189.4964   diff=0.00e+00
+  n=1.30 a= 5.0 [tanh  ]  integral=   -189.4964   64pi^2(1-n)=   -189.4964   diff=5.68e-14
+  n=1.30 a= 5.0 [arctan]  integral=   -189.4964   64pi^2(1-n)=   -189.4964   diff=0.00e+00
+
+  n=2.00 a= 0.1 [tanh  ]  integral=   -631.6547   64pi^2(1-n)=   -631.6547   diff=1.14e-13
+  n=2.00 a= 0.1 [arctan]  integral=   -631.6547   64pi^2(1-n)=   -631.6547   diff=2.27e-13
+  n=2.00 a= 1.0 [tanh  ]  integral=   -631.6547   64pi^2(1-n)=   -631.6547   diff=2.27e-13
+  n=2.00 a= 1.0 [arctan]  integral=   -631.6547   64pi^2(1-n)=   -631.6547   diff=1.14e-13
+  n=2.00 a= 5.0 [tanh  ]  integral=   -631.6547   64pi^2(1-n)=   -631.6547   diff=2.27e-13
+  n=2.00 a= 5.0 [arctan]  integral=   -631.6547   64pi^2(1-n)=   -631.6547   diff=0.00e+00
+
+replica entropy from the GB term:  S = 4*pi*alpha/G    [Wald value 2 pi alpha chi/G with chi=2 is 4*pi*alpha/G ]

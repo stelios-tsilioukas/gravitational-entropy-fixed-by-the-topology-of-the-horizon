@@ -1,0 +1,10 @@
+caps = 64*pi*(theta0 - sin(2*theta0)/2)
+joint = 32*pi*(-2*theta0 + sin(2*theta0) + pi)
+total = 32*pi**2
+angle part 4*Theta*int R_J = 32*pi*(pi - 2*theta0) ; endpoint (extrinsic) part = 32*pi*sin(2*theta0)
+general: J2 - 4*Theta*R_J = -4*(p1*p3*sin(2*t1) - p1*p3*sin(2*t2) - p1*q3*cos(2*t1) + p1*q3*cos(2*t2) - p2**2*sin(2*t1) + p2**2*sin(2*t2) + 2*p2*q2*cos(2*t1) - 2*p2*q2*cos(2*t2) - p3*q1*cos(2*t1) + p3*q1*cos(2*t2) - q1*q3*sin(2*t1) + q1*q3*sin(2*t2) + q2**2*sin(2*t1) - q2**2*sin(2*t2))
+=> J2 = 4 Theta R_J + 2[sin 2t]_{t1}^{t2}(E11-E22) - 4[cos 2t]_{t1}^{t2} E12   (flat ambient)
+=> equivalently J2 = 4[ Theta R_J + E(k_u1,k_v1) - E(k_u2,k_v2) ],  E(L,Q)=trL trQ - tr LQ = 2 L^[A_A Q^B]_B :
+   the structure of Cano (arXiv:1803.00172) joint term, here DERIVED as the rounded-edge limit of the Myers term.
+Lorentzian joints: theta -> i psi (boost angle), cos -> cosh, sin -> i sinh.
+All S2 checks passed.

@@ -1,0 +1,15 @@
+Lanczos tensor for random algebraic curvature tensors (H_ab = 0 identically <=> Gauss-Bonnet is topological)
+
+  D  symmetry err   Euler err           GB     max|H_ab|       scale    relative
+  4      3.55e-15    0.00e+00         3307   1.54898e-11        2689    5.76e-15
+  4      7.11e-15    7.38e-15        616.5   3.47882e-11       375.8    9.26e-14
+  4      3.55e-15    2.89e-14        251.9   9.10916e-12       308.5    2.95e-14
+  5      3.66e-15    6.33e-12     9.78e+05   9.75183e+05   8.848e+05    1.10e+00
+  5      4.05e-15    3.71e-15   -9.417e+04   5.26376e+04   4.042e+04    1.30e+00
+  5      1.42e-14    2.47e-14         5590   9.41420e+03        9526    9.88e-01
+  6      5.33e-15    5.12e-16     2.84e+04   1.95236e+04   2.504e+04    7.80e-01
+  6      7.11e-15    5.88e-13   -1.917e+05   4.60688e+05   6.295e+05    7.32e-01
+  6      8.10e-15    1.98e-15   -2.943e+04   2.16274e+04   2.083e+04    1.04e+00
+
+Consistency: the handle geometry S^1 x S^3 has chi = 0, and the Gauss-Bonnet density vanishes there identically.
+   R = 6/a**2,   Ric^2 = 12/a**4,   GB = 0

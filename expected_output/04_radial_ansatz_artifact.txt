@@ -1,0 +1,21 @@
+1. Total-derivative form for arbitrary h(rho), b(rho):
+   d/drho[-8 h'(1-b'^2)] - GB sqrt(g)/sin(theta_1) = 0
+
+2. Numerical integral with b'(0) != 0 (radial ansatz):
+   b'(0)=0.0  n=0.70   integral=    189.4964   64pi^2[(1-b'(0)^2)-n]=    189.4964   diff=0.00e+00
+   b'(0)=0.0  n=1.30   integral=   -189.4964   64pi^2[(1-b'(0)^2)-n]=   -189.4964   diff=0.00e+00
+   b'(0)=0.0  n=2.00   integral=   -631.6547   64pi^2[(1-b'(0)^2)-n]=   -631.6547   diff=1.14e-13
+   b'(0)=0.2  n=0.70   integral=    164.2302   64pi^2[(1-b'(0)^2)-n]=    164.2302   diff=8.53e-14
+   b'(0)=0.2  n=1.30   integral=   -214.7626   64pi^2[(1-b'(0)^2)-n]=   -214.7626   diff=2.84e-14
+   b'(0)=0.2  n=2.00   integral=   -656.9209   64pi^2[(1-b'(0)^2)-n]=   -656.9209   diff=0.00e+00
+   b'(0)=0.5  n=0.70   integral=     31.5827   64pi^2[(1-b'(0)^2)-n]=     31.5827   diff=0.00e+00
+   b'(0)=0.5  n=1.30   integral=   -347.4101   64pi^2[(1-b'(0)^2)-n]=   -347.4101   diff=5.68e-14
+   b'(0)=0.5  n=2.00   integral=   -789.5684   64pi^2[(1-b'(0)^2)-n]=   -789.5684   diff=2.27e-13
+   b'(0)=0.8  n=0.70   integral=   -214.7626   64pi^2[(1-b'(0)^2)-n]=   -214.7626   diff=8.53e-14
+   b'(0)=0.8  n=1.30   integral=   -593.7554   64pi^2[(1-b'(0)^2)-n]=   -593.7554   diff=1.14e-13
+   b'(0)=0.8  n=2.00   integral=  -1035.9137   64pi^2[(1-b'(0)^2)-n]=  -1035.9137   diff=0.00e+00
+
+3. The radial ansatz with b'(0) != 0 is singular at the tip (n = 1, h = rho):
+   lim_{rho->0} rho * R = -4*b1/b0   (nonzero unless b'(0) = b1 = 0)
+   => the factor (1 - b'(0)^2) records a conical singularity of the ansatz,
+      not an extrinsic-curvature correction to the entropy.

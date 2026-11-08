@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it and the accompanying paper."
+title: "Verification code for: The additive ambiguity of gravitational entropy fixed by the topology of the horizon"
+authors:
+  - family-names: Tsilioukas
+    given-names: Stylianos A.
+    affiliation: "National Observatory of Athens; University of Thessaly"
+version: 1.0.0
+date-released: 2026-11-08
+license: MIT
+repository-code: "https://github.com/stelios-tsilioukas/gravitational-entropy-fixed-by-the-topology-of-the-horizon"
+keywords:
+  - gravitational entropy
+  - Gauss-Bonnet
+  - von Neumann algebras
+  - crossed product
+  - topology change

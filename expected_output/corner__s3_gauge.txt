@@ -1,0 +1,8 @@
+PASS (i)  2c P(dw ^ delta_lambda w) = -2c P(lambda, delta R) + d[2c P(lambda,dw)]
+PASS (ii) Omega(delta_lambda,delta_mu) = -2c oint P(lambda,[R,mu]) ; equals -H_[lambda,mu]
+(iii) stab(spacelike e1): dim 3, P restricted to it is ZERO
+(iii) stab(timelike e0): dim 3, P restricted to it is ZERO
+(iii) stab(null vector l): dim 3, P restricted to it is ZERO
+(iii) stab(null ray l (sim(2))): dim 4, P restricted to it is NONZERO, rank 2
+PASS (iv) completed corner form and residual (stab(u)) Lorentz charges vanish in the adapted gauge
+All S3 checks passed.

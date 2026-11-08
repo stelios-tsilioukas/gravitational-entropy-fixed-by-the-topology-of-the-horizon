@@ -1,0 +1,4 @@
+Euclidean Schwarzschild: R = 0   Ric^2 = 0   Riem^2 (Kretschmann) = 48*M**2/r**6   GB = 48*M**2/r**6
+int_M GB sqrt(g) d^4x = 64*pi**2    => chi =  2
+horizon: ^(2)R = 1/(2*M**2)   Area = 16*pi*M**2   oint ^(2)R dA = 8*pi   = 4 pi chi(Sigma) with chi = 2
+S_Wald = A/4G + 4*pi*alpha/G  ; predicted 2 pi alpha chi/G = 4*pi*alpha/G

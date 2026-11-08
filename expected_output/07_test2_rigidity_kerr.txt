@@ -1,0 +1,23 @@
+Deformed cuts of a horizon (chi = 2, so oint K dA should be 4pi = 12.566370614):
+  axisymmetric  1+e*Y20                  eps= 0.00   oint K dA =  12.566370614360   oint R dA =  25.132741228719   2piChi = 12.566371
+  axisymmetric  1+e*Y20                  eps= 0.05   oint K dA =  12.566370614360   oint R dA =  25.132741228719   2piChi = 12.566371
+  axisymmetric  1+e*Y20                  eps= 0.20   oint K dA =  12.566370614360   oint R dA =  25.132741228719   2piChi = 12.566371
+  axisymmetric  1+e*Y20                  eps= 0.40   oint K dA =  12.566370614360   oint R dA =  25.132741228719   2piChi = 12.566371
+  non-axisym    1+e*Y31                  eps= 0.05   oint K dA =  12.566370614360   oint R dA =  25.132741228719   2piChi = 12.566371
+  non-axisym    1+e*Y31                  eps= 0.20   oint K dA =  12.566370614360   oint R dA =  25.132741228719   2piChi = 12.566371
+  non-axisym    1+e*Y31                  eps= 0.40   oint K dA =  12.566370614360   oint R dA =  25.132741228719   2piChi = 12.566371
+  generic       1+e*(Y20+Y31+Y43)        eps= 0.10   oint K dA =  12.566370614360   oint R dA =  25.132741228719   2piChi = 12.566371
+  generic       1+e*(Y20+Y31+Y43)        eps= 0.30   oint K dA =  12.566370614360   oint R dA =  25.132741228719   2piChi = 12.566371
+
+Control: genus-1 cut (torus of revolution, chi = 0, so oint K dA = 0):
+  torus  oint K dA = 0
+
+Control: handle attachment, chi -> chi-2 changes the charge by the quantum 2*(2pi)*... :
+  Delta(oint K dA) = 2pi*Delta(chi) = -12.566370614  for Delta(chi) = -2
+
+Physical cut: the Kerr horizon (a genuinely non-round 2-metric):
+   oint ^{(2)}R dA over the Kerr horizon = 8*pi   (4 pi chi = 8 pi)
+   a/M=0.00:   25.132741228718    8pi = 25.132741228718
+   a/M=0.30:   25.132741228718    8pi = 25.132741228718
+   a/M=0.70:   25.132741228718    8pi = 25.132741228718
+   a/M=0.99:   25.132741228718    8pi = 25.132741228718

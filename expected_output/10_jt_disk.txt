@@ -1,0 +1,7 @@
+Z(beta) = sqrt(2)*exp((S_0*beta + 2*pi**2)/beta)/(2*sqrt(pi)*beta**(3/2))
+log Z  = (S_0*beta - log((2*pi*beta**3)**beta)/2 + 2*pi**2)/beta
+<E>    = (3*beta + 4*pi**2)/(2*beta**2)
+S(beta)= S_0 - log(2*pi*beta**3)/2 + 3/2 + 4*pi**2/beta
+dS/dS0 = 1    <-- equals chi(disk)=1
+dS/dS0 is beta-independent: True
+S at large 1/beta: S_0 - log(2*pi*beta**3)/2 + 3/2 + 4*pi**2/beta

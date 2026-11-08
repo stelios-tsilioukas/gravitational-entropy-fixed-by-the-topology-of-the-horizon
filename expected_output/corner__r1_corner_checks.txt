@@ -1,0 +1,99 @@
+PASS Full Lorentz epsilon expansion: mixed coefficient 8c; six complementary terms
+  Does not test: boundary constraints, global frame identifications or quantization
+PASS Null split and Gauss equation: R23 = db + epsilon_ij K+_i wedge K-_j
+  Does not test: smoothness or field equations of a chosen spacetime
+PASS Gauss extrinsic scalar contraction: a*h - 2*b*f + d*e
+  Does not test: ambient Ricci or Weyl curvature restrictions
+PASS Closed S4 Euler normalization: 64*pi**2
+  Does not test: a general boundary or joint completion
+PASS Wald and Jacobson Myers normalization: EH=area/(4*G); GB=2*pi*alpha*chi/G
+  Does not test: equality of bare Wald and JM away from vanishing cross-extrinsic term
+PASS Static spherical horizon with changing radius: Omega_E=0, dArea/dr=8*pi*r, integral R=8*pi
+  Does not test: nonspherical or nonstationary perturbations; this example alone is symmetry blind
+PASS Spherical extrinsic negative control: -16*area*c
+  Does not test: Einstein equations or persistence of a Killing bifurcation surface for this local jet family
+PASS Boost versus conformal shape negative control: -64*pi*c/3
+  Does not test: whether a chosen completed theory quotients this local boost as gauge
+PASS On shell linearized TT counterexample: 4*area*c
+  Does not test: a global nonlinear two-parameter black-hole family; no null or completed boundary condition imposed
+PASS Fixed reference transgression corner cancellation: Omega_bare - integral delta C_E = 0
+  Does not test: selection of this completion by the gravitational algebra, moving normals, or corner gluing
+PASS Conditional compact BF level: k=16*pi*c=s/(2*pi); det K=-k^2; dim H_g=|k|^(2g)
+  Does not test: compactness, flatness or independence of the actual gravitational connections
+  k= 1 g=0..3 dimensions= [1, 1, 1, 1] log(handle dimension)= 0.0 2|s|= 12.56637061435917295385
+  k= 2 g=0..3 dimensions= [1, 4, 16, 64] log(handle dimension)= 1.386294361119890618834 2|s|= 25.1327412287183459077
+  k= 3 g=0..3 dimensions= [1, 9, 81, 729] log(handle dimension)= 2.19722457733621938279 2|s|= 37.69911184307751886155
+  k= 5 g=0..3 dimensions= [1, 25, 625, 15625] log(handle dimension)= 3.218875824868200749202 2|s|= 62.83185307179586476925
+PASS Compact BF growth mismatch: log|k| != 2*pi*|k| for every positive integer k (analytic inequality)
+  Does not test: other interacting or nonabelian edge theories with additional input
+PASS Supplied cross-task normalization arithmetic: S_hyperbolic=-F*chi at rh=L; 4*(1/360)=1/90
+  Does not test: CFT quotient universality, finite-N effects, anomaly determinants or one-loop replica equality
+
+All R1 symbolic and numerical checks passed.
+[
+  {
+    "check": "Full Lorentz epsilon expansion",
+    "result": "mixed coefficient 8c; six complementary terms",
+    "does_not_test": "boundary constraints, global frame identifications or quantization"
+  },
+  {
+    "check": "Null split and Gauss equation",
+    "result": "R23 = db + epsilon_ij K+_i wedge K-_j",
+    "does_not_test": "smoothness or field equations of a chosen spacetime"
+  },
+  {
+    "check": "Gauss extrinsic scalar contraction",
+    "result": "a*h - 2*b*f + d*e",
+    "does_not_test": "ambient Ricci or Weyl curvature restrictions"
+  },
+  {
+    "check": "Closed S4 Euler normalization",
+    "result": "64*pi**2",
+    "does_not_test": "a general boundary or joint completion"
+  },
+  {
+    "check": "Wald and Jacobson Myers normalization",
+    "result": "EH=area/(4*G); GB=2*pi*alpha*chi/G",
+    "does_not_test": "equality of bare Wald and JM away from vanishing cross-extrinsic term"
+  },
+  {
+    "check": "Static spherical horizon with changing radius",
+    "result": "Omega_E=0, dArea/dr=8*pi*r, integral R=8*pi",
+    "does_not_test": "nonspherical or nonstationary perturbations; this example alone is symmetry blind"
+  },
+  {
+    "check": "Spherical extrinsic negative control",
+    "result": "-16*area*c",
+    "does_not_test": "Einstein equations or persistence of a Killing bifurcation surface for this local jet family"
+  },
+  {
+    "check": "Boost versus conformal shape negative control",
+    "result": "-64*pi*c/3",
+    "does_not_test": "whether a chosen completed theory quotients this local boost as gauge"
+  },
+  {
+    "check": "On shell linearized TT counterexample",
+    "result": "4*area*c",
+    "does_not_test": "a global nonlinear two-parameter black-hole family; no null or completed boundary condition imposed"
+  },
+  {
+    "check": "Fixed reference transgression corner cancellation",
+    "result": "Omega_bare - integral delta C_E = 0",
+    "does_not_test": "selection of this completion by the gravitational algebra, moving normals, or corner gluing"
+  },
+  {
+    "check": "Conditional compact BF level",
+    "result": "k=16*pi*c=s/(2*pi); det K=-k^2; dim H_g=|k|^(2g)",
+    "does_not_test": "compactness, flatness or independence of the actual gravitational connections"
+  },
+  {
+    "check": "Compact BF growth mismatch",
+    "result": "log|k| != 2*pi*|k| for every positive integer k (analytic inequality)",
+    "does_not_test": "other interacting or nonabelian edge theories with additional input"
+  },
+  {
+    "check": "Supplied cross-task normalization arithmetic",
+    "result": "S_hyperbolic=-F*chi at rh=L; 4*(1/360)=1/90",
+    "does_not_test": "CFT quotient universality, finite-N effects, anomaly determinants or one-loop replica equality"
+  }
+]

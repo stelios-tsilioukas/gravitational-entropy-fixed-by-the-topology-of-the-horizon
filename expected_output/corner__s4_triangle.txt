@@ -1,0 +1,2 @@
+PASS triangle identity with B = c*(-1)*P((A1-A0)^(A2-A1))
+PASS insert form: T(w,wb2)-T(w,wb1)-T(wb1,wb2) = c d eps (wb2-wb1)^(w-wb1)

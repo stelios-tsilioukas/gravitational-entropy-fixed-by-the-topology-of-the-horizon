@@ -1,0 +1,6 @@
+=== S^4 radius a ===
+ R = 12/a**2  Ric^2 = 36/a**4  Riem^2 = 24/a**4  GB = 24/a**4
+ Vol = 8*pi**2*a**4/3  int GB = 64*pi**2  chi = 2
+=== S^2(a) x S^2(b) ===
+ R = 2/b**2 + 2/a**2  Ric^2 = 2/b**4 + 2/a**4  Riem^2 = 4/b**4 + 4/a**4  GB = 8/(a**2*b**2)
+ Vol = 16*pi**2*a**2*b**2  int GB = 128*pi**2  chi = 4
